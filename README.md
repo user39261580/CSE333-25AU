@@ -1,6 +1,6 @@
 ![NotebookLM](https://img.shields.io/badge/NotebookLM-000000.svg?style=for-the-badge&logo=NotebookLM&logoColor=white)
 
-# CSE 333: Systems Programming (Autumn 2025)
+# CSE 333: Systems Programming (Autumn 2025 at UW)
 
 [Course Site Link](https://courses.cs.washington.edu/courses/cse333/25au/)
 [NotebookLM Link](https://notebooklm.google.com/notebook/f647810b-0856-48b0-9aa2-018a95972e03)
