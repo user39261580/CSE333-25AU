@@ -21,12 +21,12 @@ As an ECE student, I was particularly interested in:
 
 ```
 CSE333-25AU/
-├── exercises/          # Weekly practice problems and in-class exercises
-│   ├── week1/         # C fundamentals and compilation
-│   ├── week2/         # Memory management and pointers
-│   ├── week3/         # Arrays, strings, and dynamic allocation
-│   ├── ...            # Additional weekly exercises
-│   └── week12/        # Final review and advanced topics
+├── exercises/          # Practice problems and programming exercises
+│   ├── exercise01/    # Introduction to C programming
+│   ├── exercise02/    # Memory management basics
+│   ├── exercise03/    # Pointers and arrays
+│   ├── ...            # Additional exercises
+│   └── exercise18/    # Advanced systems programming
 ├── homework/          # Major programming assignments
 │   ├── hw1/           # C Programming Fundamentals
 │   ├── hw2/           # Data Structures in C
