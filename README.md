@@ -2,6 +2,7 @@
 
 # CSE 333: Systems Programming (Autumn 2025)
 
+[Course Site Link](https://courses.cs.washington.edu/courses/cse333/25au/)
 [NotebookLM Link](https://notebooklm.google.com/notebook/f647810b-0856-48b0-9aa2-018a95972e03)
 
 ## Course Overview
