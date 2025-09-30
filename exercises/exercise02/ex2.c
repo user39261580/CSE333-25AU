@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <inttypes.h> 
+#include <inttypes.h>
 
 void PrintBytes(void* mem_addr, int num_bytes);
 
