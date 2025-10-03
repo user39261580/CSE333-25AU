@@ -1,7 +1,6 @@
 // Copyright 2025 Tsung-Wei Chin
 // Name: Miles TsungWei Chin
 // Email: twchin@uw.edu
-// Goals: Use pointers to access and print arbitrary memory bytes and addresses, and explore C data structure representation in memory.
 
 #include <stdio.h>
 #include <stdlib.h>

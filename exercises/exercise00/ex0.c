@@ -1,7 +1,6 @@
 // Copyright 2025 Tsung-Wei Chin
 // Name: Miles TsungWei Chin
 // Email: twchin@uw.edu
-// Goal: C warm-up exercise
 
 #include <stdio.h>
 #include <stdlib.h>
