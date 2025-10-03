@@ -7,7 +7,7 @@
 #include <stdint.h>
 #include <inttypes.h>
 
-typedef struct Point3d_st{
+typedef struct Point3d_st {
   uint16_t x;
   uint16_t y;
   uint16_t z;
@@ -15,8 +15,7 @@ typedef struct Point3d_st{
 
 Point3d* AllocatePoint3d(uint16_t x, uint16_t y, uint16_t z);
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]) {
   uint16_t x = 1;
   uint16_t y = 2;
   uint16_t z = 3;
