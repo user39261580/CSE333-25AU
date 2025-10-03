@@ -1,7 +1,7 @@
 // Copyright 2025 Tsung-Wei Chin
 // Name: Miles TsungWei Chin
 // Email: twchin@uw.edu
-// Subject: Pi calculator based on Nilakantha series
+// Goal: C warm-up exercise
 
 #include <stdio.h>
 #include <stdlib.h>

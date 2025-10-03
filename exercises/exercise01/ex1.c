@@ -1,7 +1,7 @@
 // Copyright 2025 Tsung-Wei Chin
 // Name: Miles TsungWei Chin
 // Email: twchin@uw.edu
-// Subject: Insertion sort for an array of integers
+// Goals: Implement and use a function with array parameters; process and print fixed-width integer data.
 
 #include <stdio.h>
 #include <stdlib.h>
