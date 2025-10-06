@@ -9,7 +9,7 @@
 
 # default target
 ex5: ex5.o NthPrime.o
-	gcc -Wall -g -std=c17 -o ex5 ex5.o NthPrime.o
+	gcc -Wall -g -std=c17 -o ex5 ex5.o NthPrime.o -lm
 
 # individual source files
 NthPrime.o: NthPrime.c NthPrime.h
