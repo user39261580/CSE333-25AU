@@ -26,6 +26,9 @@ LinkedList* LinkedList_Allocate(void) {
   Verify333(ll != NULL);
 
   // STEP 1: initialize the newly allocated record structure.
+  ll->head = NULL;
+  ll->tail = NULL;
+  ll->num_elements = 0;
 
   // Return our newly minted linked list.
   return ll;
