@@ -42,13 +42,24 @@ void LinkedList_Free(LinkedList *list,
   // STEP 2: sweep through the list and free all of the nodes' payloads
   // (using the payload_free_function supplied as an argument) and
   // the nodes themselves.
+  LinkedListNode *current = list->head;
+  while (current != NULL)
+  {
+    LinkedListNode *next = current->next;
+    payload_free_function(current->payload);
+    free(current);
+    current = next;
+  }
+  current = NULL;
 
   // free the LinkedList
   free(list);
+  list = NULL;
 }
 
 int LinkedList_NumElements(LinkedList *list) {
   Verify333(list != NULL);
+  
   return list->num_elements;
 }
 
@@ -71,6 +82,10 @@ void LinkedList_Push(LinkedList *list, LLPayload_t payload) {
     list->num_elements = 1;
   } else {
     // STEP 3: typical case; list has >=1 elements
+    ln->prev = NULL;
+    ln->next = list->head;
+    list->head = ln;
+    list->num_elements += 1;
   }
 }
 
